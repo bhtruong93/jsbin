@@ -32,7 +32,8 @@
     lineWrapping: true,
     theme: 'jsbin',
     indentUnit: 2,
-    tabSize: 2
+    tabSize: 2,
+    lineNumbers: true
   };
 
   // needed for the keymaps
@@ -70,6 +71,7 @@
     'theme',
     'tabSize',
     'lineWrapping',
+    'lineNumbers',
     'lineNumbers'
   ];
 
