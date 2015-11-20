@@ -1,6 +1,6 @@
 <div id="control">
   <div class="control">
-    <div id="menuinfo"><p></p></div>
+    <!-- <div id="menuinfo"><p></p></div> -->
     <div class="buttons">
       {{#if embed}}
         <span class="menu">
@@ -23,7 +23,6 @@
               {{/feature}}
               {{#feature request "delete"}}
               <a class="deletebin button group" data-desc="Delete bin" title="Delete this bin" href="{{root}}/delete" data-shortcut="ctrl+shift+del">Delete</a>
-              {{!--<!-- <a class="deleteallbins button group" data-desc="Delete all bin snapshots" title="Delete all bin snapshots" href="{{root}}/delete-all">Delete all snapshots</a> -->--}}
               {{/feature}}
               <a class="archivebin button group" data-desc="Archive bin" title="Archive this bin" href="{{code_id_path}}/archive" data-shortcut="ctrl+y">Archive</a>
               <a class="unarchivebin button group" data-desc="Unrchive bin" title="Restore this bin from the archive" href="{{code_id_path}}/unarchive" data-shortcut="ctrl+y">Unarchive</a>
@@ -48,7 +47,8 @@
               <a hidden data-desc="How to embed a bin" target="_blank" title="How to embed a bin" data-label="how-to-embed" class="button group" href="http://jsbin.com/help/how-can-i-embed-jsbin">How to embed</a>
             </div>
           </div>
-        </div><div class="menu">
+        </div>
+        <div class="menu">
           <span class="button group">Add library
           <select id="library"></select>
           </span>
@@ -148,8 +148,8 @@
           <a href="{{code_id_path}}/save" class="save button group">Start saving your work</a>
         </div>
       {{/if}}
-      <div id="panels"></div>
-      <div class="help">
+      <!-- <div id="panels"></div> -->
+      <!-- <div class="help">
         {{#unless embed}}
           {{#feature request "accountPages"}}
           <div class="loggedout menu">
@@ -281,7 +281,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

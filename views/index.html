@@ -77,7 +77,7 @@ if(top != self) {
   <div id="panelswaiting">
     <div class="code stretch html panel">
       <div class="label menu"><span class="name"><strong><a href="#htmlprocessors" class="fake-dropdown button-dropdown">HTML</a></strong></span><div class="dropdown" id="htmlprocessors">
-          <div class="dropdownmenu processorSelector" data-type="html">
+          <div class="dropdownmenu processorSelector" data-type="javascript">
             <a href="#html">HTML</a>
             <a href="#markdown">Markdown</a>
             <a href="#jade">Jade</a>
@@ -87,6 +87,27 @@ if(top != self) {
       </div>
       <div class="editbox">
         <textarea aria-label="HTML Code Panel" spellcheck="false" autocapitalize="none" autocorrect="off" id="html"></textarea>
+      </div>
+    </div>
+    <div class="code stretch javascript panel">
+      <div class="label menu"><span class="name"><strong><a  class="fake-dropdown button-dropdown" href="#javascriptprocessors">JavaScript</a></strong></span>
+        <div class="dropdown" id="javascriptprocessors">
+          <div class="dropdownmenu processorSelector" data-type="javascript">
+            <a href="#javascript">JavaScript</a>
+            <a href="#babel">ES6 / Babel</a>
+            <a href="#jsx">JSX (React)</a>
+            <a href="#coffeescript">CoffeeScript</a>
+            <a href="#traceur">Traceur</a>
+            <a href="#typescript">TypeScript</a>
+            <a href="#processing">Processing</a>
+            <a href="#livescript">LiveScript</a>
+            <a href="#clojurescript">ClojureScript</a>
+            <a href="#convert">Convert to JavaScript</a>
+          </div>
+        </div>
+      </div>
+      <div class="editbox">
+        <textarea aria-label="JavaScript Code Panel" spellcheck="false" autocapitalize="none" autocorrect="off" id="javascript"></textarea>
       </div>
     </div>
     <div class="code stretch javascript panel">

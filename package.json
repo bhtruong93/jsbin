@@ -18,7 +18,7 @@
     "url": "git://github.com/bhtruong93/jsbin.git"
   },
   "scripts": {
-    "start": "(sleep 2 && open http://localhost:3000) & ./bin/jsbin",
+    "start": "(sleep 2 && open http://localhost:3000/?html,css,js,console,output) & ./bin/jsbin",
     "test": "node_modules/mocha/bin/_mocha -t 25000 --ui bdd test/**/*.test.js",
     ":install": "build/install.js",
     "postinstall": "grunt build",
